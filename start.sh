@@ -21,5 +21,5 @@ fi
 
 
 echo "Starting Your Bot... 👾👾"
-python3 -m tobrot
+gunicorn app:app & python3 -m tobrot
 
